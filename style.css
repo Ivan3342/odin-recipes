@@ -24,6 +24,8 @@
     list-style: none;
     width: fit-content;
     margin: 0 auto;
+    color: black;
+    padding: 10px;
 
     & li {
         display: inline-block;
@@ -34,4 +36,27 @@
             font-size: 18px;
         }
     }
+}
+
+.dish-image {
+    border-radius: 10px;
+}
+
+.sub-title {
+    margin: 10px 0;
+    text-decoration: underline;
+    font-size: 28px;
+}
+
+.text-paragraph {
+    width: 60vw;
+}
+
+.ingredient {
+    margin: 10px 20px;
+}
+
+.step {
+    margin: 20px;
+    width: 50vw;
 }
